@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Victoria's Journal</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 10px solid #eaf8f8;
+}
+.header-box {
+    border: 4px solid lightblue;
+    margin: 0 0 10px 0;
+    padding: 5px 15px;
+    font-weight: bold;
+    height: 80px;
+    box-sizing: border-box;
+}
+.friends-box {
+    float: left;
+    width: 265px;
+    border: 4px solid lightblue;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.journal-content {
+    float: right;
+    width: 650px;
+    margin: 0;
+}
+.entry-box {
+    border: 4px solid lightblue;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: lightcyan;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.entry-box h3 {
+    color: darkcyan;
+    margin: 0 0 10px 0;
+    font-size: 26px;
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.entry-box p {
+    color: #a99b9b;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: justify;
+}
+.highlight-text {
+    font-weight: bold;
+}
+.entry-box img {
+    float: right;
+    width: 235px;
+    height: 190px;
+    margin: 0 0 5px 10px;
+    object-fit: contain;
+}
+.entry-box:first-child {
+    min-height: 273px;
+}
+.entry-box:last-child {
+    min-height: 335px;
+}
+</style>
+</head>
+<body>
+
+<div class="header-box" id="main-header" align="right" style="background-color: cyan;">
+<h1 style="color: darkcyan; margin: 0;">Victoria's Journal</h1>
+<p style="color: darkcyan; margin: 0;">So fresh and so clean</p>
+</div>
+
+<div class="friends-box" id="friends-section" style="background-color: #40d6c7;">
+<h2 style="color: green;">Friends</h2>
+<ul>
+<li>390 Builders</li>
+<li>Big Will</li>
+<li>Canon the Librarian</li>
+</ul>
+</div>
+
+<div class="journal-content" id="entries-section" style="background-color: lightcyan;">
+
+<div class="entry-box">
+<h3>04/09/08: Spatulas</h3>
+<img src="image_515d17e.jpg" alt="Spatula Image" width="100" height="100">
+<p>Yesterday, I went to the store and got some much needed spatulas! (what better way to say <span class="highlight-text">I love myself</span> than to buy myself a spatula?)</p>
+</div>
+
+<div class="entry-box" style="background-color: lightcyan;">
+<h3>04/08/08: Cookie Cupcakes</h3>
+<img src="image_65e6dc9c.jpg" alt="Cupcakes Image" width="100" height="100">
+<p>My favorite cartoon character is cookie and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both the worlds. Did you know? Cookie character once said, Sometimes me think love is what cookie is for. Me give up the last cookie for you. I wonder if the same applies for the cupcakes? (if so, I don't think I can ever love ANYONE!)</p>
+</div>
+
+</div>
+
+<div style="clear: both;"></div>
+
+</body>
+</html>
